@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2170" started-at="2021-07-01T15:56:21Z" finished-at="2021-07-01T15:56:23Z">
+  <suite name="Default suite" duration-ms="2497" started-at="2021-10-10T19:24:32Z" finished-at="2021-10-10T19:24:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2170" started-at="2021-07-01T15:56:21Z" finished-at="2021-07-01T15:56:23Z">
-      <class name="testCases.Post_or_Create_From_File">
-        <test-method status="PASS" signature="create_A_Product()[pri:0, instance:testCases.Post_or_Create_From_File@769e7ee8]" name="create_A_Product" duration-ms="2147" started-at="2021-07-01T15:56:21Z" finished-at="2021-07-01T15:56:23Z">
+    <test name="Default test" duration-ms="2497" started-at="2021-10-10T19:24:32Z" finished-at="2021-10-10T19:24:35Z">
+      <class name="rough.PutPatchAndDelete">
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:rough.PutPatchAndDelete@647fd8ce]" name="testDelete" duration-ms="1565" started-at="2021-10-10T19:24:32Z" finished-at="2021-10-10T19:24:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- create_A_Product -->
-      </class> <!-- testCases.Post_or_Create_From_File -->
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="testPatch()[pri:0, instance:rough.PutPatchAndDelete@647fd8ce]" name="testPatch" duration-ms="481" started-at="2021-10-10T19:24:34Z" finished-at="2021-10-10T19:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatch -->
+        <test-method status="PASS" signature="testPut()[pri:0, instance:rough.PutPatchAndDelete@647fd8ce]" name="testPut" duration-ms="425" started-at="2021-10-10T19:24:34Z" finished-at="2021-10-10T19:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPut -->
+      </class> <!-- rough.PutPatchAndDelete -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

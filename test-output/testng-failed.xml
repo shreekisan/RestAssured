@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.Get_or_read_single_Products">
+      <class name="rough.PutPatchAndDelete">
         <methods>
-          <include name="read_all_Products"/>
+          <include name="testDelete"/>
         </methods>
-      </class> <!-- testCases.Get_or_read_single_Products -->
+      </class> <!-- rough.PutPatchAndDelete -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
